@@ -1,0 +1,11 @@
+name: Forst Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greet
+        run: echo "Hello World"
+      - name: Print bye
+        run:  echo "bye-bye"
+        
